@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Let's play!</title>
+		<script src="client.js"></script>
+		<script src="gamelogic.js"></script>
+		<style>
+			.circle {
+				width: 20px;
+				height: 20px;
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				border-radius: 10px;
+			}
+			.inner{
+				position:absolute
+			}	
+		</style>
+	</head>
+	<body>
+		<div id="input">
+			<input id="playerName" type="text" placeholder="Name" />
+			<input type="button" value="Start" onclick="join();" />
+			<input type="button" value="Disconnect" />
+		</div>
+		<div id="grid">
+			
+		</div>
+	</body>
+</html>

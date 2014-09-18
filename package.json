@@ -1,0 +1,14 @@
+{
+  "name": "CS523-Assignment1",
+  "subdomain": "akshaylive-CS523-Assignment1",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "websocket.io": "*"
+  }
+}
